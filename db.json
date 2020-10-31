@@ -1,0 +1,50 @@
+{
+  "users" : [
+    {
+      "id": 0,
+      "username": "hynek",
+      "password": "mafia"
+    },
+    {
+      "id": 1,
+      "username": "martin",
+      "password": "jazz"
+    },
+    {
+      "id": 2,
+      "username": "martina",
+      "password": "mrkev"
+    },
+    {
+      "id": 3,
+      "username": "ludmila",
+      "password": "muffins"
+    },
+    {
+      "id": 4,
+      "username": "vaclav",
+      "password": "legie"
+    }
+  ],
+
+  "events": [
+    {
+      "id": 0,
+      "host": 0,
+      "guests": [1, 2, 3, 4],
+      "content": "Hello everyone!"
+    },
+    {
+      "id": 1,
+      "host": 2,
+      "guests": [3],
+      "content": "Hello girls!"
+    },
+    {
+      "id": 2,
+      "host": 4,
+      "guests": [0, 1],
+      "content": "Hello boys!"
+    }
+  ]
+}
